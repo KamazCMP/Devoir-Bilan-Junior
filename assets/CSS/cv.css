@@ -1,0 +1,180 @@
+/*CSS principal */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+@font-face {
+    font-family: raleway;
+    src: url(../fonts/Raleway-VariableFont_wght\ \(convert.io\).woff);
+    src: url(../fonts/Raleway-Italic-VariableFont_wght.ttf);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f4f6f7;
+    flex-direction: column;
+}
+
+/*header CSS*/
+
+header {
+    display: flex;
+    align-items: center;
+    gap: 150px;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    background-color: #17abb3;
+    width: 1160px;
+}
+
+.header-left img{
+    border-radius: 50%;
+    border: 2px solid white;
+    width: 100px;
+}
+
+.big-title {
+    font-family: Lato;
+    color: #ffffff;
+    padding-bottom: 10px;
+}
+
+.social-icon img {
+    width: 20px;
+}
+
+.social-icon img:hover {
+    opacity: 0.5;
+}
+
+
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.profil-image {
+    cursor: zoom-in;
+}
+
+.profil-image:hover {
+    transform: scale(2);
+}
+
+/*CV Body CSS*/
+
+.cv-body {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1160px;
+    width: 1160px;
+    font-family: raleway;
+}
+
+.cv-sidebar {
+    width: 30%;
+    background-color: #e3e3e3;
+}
+
+.cv-sidebar section {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+}
+
+h3 {
+    margin-right: 250px;
+    padding-left: 20px;
+    color:#17abb3;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.ligne-compétence {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+    padding-top: 10px;
+    width: 100%;
+}
+
+ul {
+    margin-right: 250px;
+    padding-left: 20px;
+    padding-top: 10px;
+    list-style-type: square;
+}
+
+li::marker {
+    color: #17abb3;
+}
+
+.padding-bottom {
+    padding-bottom: 25px;
+}
+
+.cv-main-container {
+    width: 70%;
+    background-color: #ffffff;
+}
+
+.cv-main {
+    padding-left: 20px;
+    margin-bottom: 25px;
+}
+
+p {
+   text-indent: 20px;
+   padding-top: 10px;
+}
+
+.blue {
+    color: #17abb3;
+}
+
+.job-block {
+    margin-bottom: 12px;
+    padding: 8px 10px;
+}
+
+.job-block:hover {
+    background-color: #edf2f7;
+    border-left: 4px solid #17abb3;
+}
+
+.job-block .job-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    font-size: 0.95em;
+    margin: 0;
+}
+
+.job-block .job-subtitle {
+    font-size: 0.85em;
+    margin: 2px 0 0 0;
+}
+
+/* Footer CSS */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 1160px;
+    background-color: #17abb3;
+    padding-top: 10px;
+}
